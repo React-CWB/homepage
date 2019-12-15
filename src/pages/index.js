@@ -6,10 +6,9 @@ export default ({ data }) => {
   console.log(data.allMarkdownRemark.nodes)
   return (
     <Layout>
-      <h1>Amazing Pandas Eating Things</h1>
       <div>
         <img
-          src="https://2.bp.blogspot.com/-BMP2l6Hwvp4/TiAxeGx4CTI/AAAAAAAAD_M/XlC_mY3SoEw/s1600/panda-group-eating-bamboo.jpg"
+          src="https://secure.meetupstatic.com/photos/event/1/2/2/1/600_481324641.jpeg"
           alt="Group of pandas eating bamboo"
         />
         {data.allMarkdownRemark.edges.map(({ node }) => {
@@ -36,17 +35,20 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      totalCount
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 1
+    ) {
       edges {
         node {
-          id
-          fields {
-            slug
-          }
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            bla
+            date
+          }
+          html
+          fields {
+            slug
           }
           excerpt
         }
