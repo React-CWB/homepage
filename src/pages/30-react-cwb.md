@@ -1,8 +1,9 @@
 ---
 title: "React CWB #30 - Dojo Edition"
-date: "2019-11-27"
+date: "1574823600000"
 location: "Pipefy"
 sponsor: "Pipefy"
+next: true
 ---
 
 ## Programação

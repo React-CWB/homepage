@@ -1,8 +1,9 @@
 ---
 title: "React CWB #3"
-date: "2017-06-28"
+date: "1498618800000"
 location: "Condomínio Quartier"
 sponsor: "HairAdvisor"
+next: false
 ---
 
 ## Programação

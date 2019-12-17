@@ -1,8 +1,9 @@
 ---
 title: "React CWB #10"
-date: "2018-02-27"
+date: "1519700400000"
 location: "Pipefy"
 sponsor: "Pipefy"
+next: false
 ---
 
 ## Programação

@@ -1,8 +1,9 @@
 ---
 title: "#1 - Intro ao React"
-date: "2017-04-12"
+date: "1491966000000"
 location: "ImpactHub"
 sponsor: "Trackmob"
+next: false
 ---
 
 Neste primeiro meetup vamos fazer uma introdução ao React/Redux e discutirmos um pouco sobre a melhor forma de seguirmos com o grupo para termos encontros mensais.

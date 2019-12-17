@@ -1,8 +1,9 @@
 ---
 title: "React CWB #16"
-date: "2018-08-28"
+date: "1535425200000"
 location: "IEP"
 sponsor: "IEP"
+next: false
 ---
 
 ## Programação

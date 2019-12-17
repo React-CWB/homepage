@@ -7,13 +7,16 @@ export default ({ data }) => (
     <h1>Todos os eventos</h1>
     <br />
     {data.allMarkdownRemark.edges.map(({ node }) => {
-      console.log(node)
+      const date = new Date(Number(node.frontmatter.date))
       return (
-        <div key={node.id}>
+        <div key={date}>
           <Link to={node.fields.slug}>
             <h2>
               {node.frontmatter.title}{" "}
-              <span style={{ color: "#bbb" }}> - {node.frontmatter.date}</span>
+              <span style={{ color: "#bbb" }}>
+                {" "}
+                - {date.toLocaleDateString("pt-br")}
+              </span>
             </h2>
           </Link>
           <p>{node.excerpt}</p>
