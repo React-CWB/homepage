@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from "@emotion/core"
+import { css, jsx } from "@emotion/core"
 import { useStaticQuery, Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 
@@ -17,12 +17,12 @@ export default ({ children }) => {
   )
   return (
     <div
-      css={{
+      css={css({
         margin: "0 auto",
         maxWidth: "800px",
         padding: rhythm(2),
         paddingTop: rhythm(1.5),
-      }}
+      })}
     >
       <Link to={`/`}>
         <h3
