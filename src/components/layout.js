@@ -19,7 +19,7 @@ export default ({ children }) => {
     <div
       css={css({
         margin: "0 auto",
-        maxWidth: "800px",
+        maxWidth: "900px",
         padding: rhythm(2),
         paddingTop: rhythm(1.5),
       })}

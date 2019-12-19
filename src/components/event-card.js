@@ -4,13 +4,14 @@ import { Link } from "gatsby"
 import Talk from "../components/talks"
 
 const EventCard = ({ event }) => {
+  const { palestras } = event.frontmatter
   const date = new Date(Number(event.frontmatter.date))
   return (
-    <div>
+    <div style={{marginBottom: '20px'}}>
       <h3>Próximo Evento</h3>
       <div
         style={{
-          padding: "20px 30px 10px 30px",
+          padding: "10px",
           border: "2px solid #444",
           borderRadius: "5px",
         }}
@@ -22,16 +23,15 @@ const EventCard = ({ event }) => {
           <h5 style={{ color: "#bbb" }}>{date.toLocaleDateString("pt-br")}</h5>
         </div>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <Talk
-            nomePalestrante={event.frontmatter.palestrante1}
-            fotoPalestrante={event.frontmatter.fotoPalestrante1}
-            tituloPalestra={event.frontmatter.palestra1.tituloz}
-          />
-          <Talk
-            nomePalestrante={event.frontmatter.palestrante2}
-            fotoPalestrante={event.frontmatter.fotoPalestrante2}
-            tituloPalestra={event.frontmatter.palestra2}
-          />
+          {palestras && event.frontmatter.palestras.map(
+            ({titulo, palestrante, fotoPalestrante}) => (
+              <Talk
+                key={fotoPalestrante}
+                nomePalestrante={palestrante}
+                fotoPalestrante={fotoPalestrante}
+                tituloPalestra={titulo}
+              />
+          ))}
         </div>
         <p>{event.excerpt}</p>
       </div>

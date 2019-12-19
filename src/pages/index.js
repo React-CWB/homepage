@@ -47,12 +47,11 @@ export const query = graphql`
             next
             sponsor
             title
-            palestra1
-            palestra2
-            palestrante1
-            palestrante2
-            fotoPalestrante1
-            fotoPalestrante2
+            palestras {
+              titulo
+              palestrante
+              fotoPalestrante
+            }
           }
           html
           excerpt

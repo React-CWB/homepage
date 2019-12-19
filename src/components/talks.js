@@ -2,11 +2,12 @@ import React from "react"
 
 const Talk = ({ fotoPalestrante, nomePalestrante, tituloPalestra }) => {
   return (
-    <div style={{ padding: "6px", display: "flex" }}>
+    <div style={{ padding: "6px", display: "grid", gridTemplateColumns: '50% 50%' }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
           src={fotoPalestrante}
           width="115px"
+          heigth="115px"
           style={{ borderRadius: "5px", marginBottom: "5px" }}
           alt="foto do primeiro palestrante"
         />

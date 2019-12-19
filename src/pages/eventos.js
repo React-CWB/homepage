@@ -1,28 +1,16 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
+
 import Layout from "../components/layout"
+import EventCard from '../components/event-card'
 
 export default ({ data }) => (
   <Layout>
     <h1>Todos os eventos</h1>
     <br />
-    {data.allMarkdownRemark.edges.map(({ node }) => {
-      const date = new Date(Number(node.frontmatter.date))
-      return (
-        <div key={date}>
-          <Link to={node.fields.slug}>
-            <h2>
-              {node.frontmatter.title}{" "}
-              <span style={{ color: "#bbb" }}>
-                {" "}
-                - {date.toLocaleDateString("pt-br")}
-              </span>
-            </h2>
-          </Link>
-          <p>{node.excerpt}</p>
-        </div>
-      )
-    })}
+    {data.allMarkdownRemark.edges.map(
+      ({ node }) => <EventCard key={node.frontmatter.date} event={node} />
+    )}
   </Layout>
 )
 
@@ -34,6 +22,11 @@ export const query = graphql`
           frontmatter {
             title
             date
+            palestras{
+              titulo
+              palestrante
+              fotoPalestrante
+            }
           }
           html
           fields {
