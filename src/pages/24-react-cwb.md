@@ -4,6 +4,13 @@ date: "1559098800000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Um pouco sobre Vue e semelhanças com React"
+    palestrante: "Lucas Marques de Paula"
+    fotoPalestrante: "https://avatars3.githubusercontent.com/u/22457494?s=400&v=4"
+  - titulo: "Best practices for writing React Components"
+    palestrante: "Guilherme Coelho"
+    fotoPalestrante: "https://avatars0.githubusercontent.com/u/5200384?s=400&v=4"
 ---
 
 ## Programação

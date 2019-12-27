@@ -4,6 +4,13 @@ date: "1537844400000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "css-in-js com Styled components"
+    palestrante: "Gabriel Reis"
+    fotoPalestrante: "https://avatars1.githubusercontent.com/u/13686332?s=400&v=4"
+  - titulo: "Electron - Construindo aplicações desktop com HTML, CSS e JavaScript"
+    palestrante: "Alexandre Luiz de Borba Silva"
+    fotoPalestrante: "https://avatars0.githubusercontent.com/u/7233083?s=400&v=4"
 ---
 
 ## Programação

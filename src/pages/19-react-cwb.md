@@ -4,6 +4,13 @@ date: "1543456800000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "React Suspense - isLoading no more"
+    palestrante: "Jonathan Cardoso Machado"
+    fotoPalestrante: "https://avatars2.githubusercontent.com/u/1041647?s=400&v=4"
+  - titulo: "The state of React Native in 2018"
+    palestrante: "Guilherme Coelho"
+    fotoPalestrante: "https://avatars0.githubusercontent.com/u/5200384?s=400&v=4"
 ---
 
 ## Programação

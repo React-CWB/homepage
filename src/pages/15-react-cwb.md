@@ -4,6 +4,13 @@ date: "1533006000000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "React Native com Expo"
+    palestrante: "Marcelo Augusto"
+    fotoPalestrante: "?"
+  - titulo: "Por que React"
+    palestrante: "Gustavo Krause"
+    fotoPalestrante: "https://avatars1.githubusercontent.com/u/835106?s=400&v=4"
 ---
 
 ## Programação

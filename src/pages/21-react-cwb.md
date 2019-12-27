@@ -4,6 +4,13 @@ date: "1551236400000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Novidades no React 16.8"
+    palestrante: "Daniel Cavalcante"
+    fotoPalestrante: "https://avatars1.githubusercontent.com/u/2281265?s=400&v=4"
+  - titulo: "SSR(Server Side Rendering) com Next.js"
+    palestrante: "Diego Jimenes Dubas"
+    fotoPalestrante: "?"
 ---
 
 ## Programação

@@ -4,6 +4,10 @@ date: "1529982000000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Code Splitting e Tree Shaking"
+    palestrante: "Leonardo Merlin"
+    fotoPalestrante: "?"
 ---
 
 ## Programação

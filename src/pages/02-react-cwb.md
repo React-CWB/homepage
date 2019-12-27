@@ -4,6 +4,13 @@ date: "1494385200000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Introdução ao React-Native"
+    palestrante: "?"
+    fotoPalestrante: "?"
+  - titulo: "Como testar sua App com Jest e Enzyme"
+    palestrante: "?"
+    fotoPalestrante: "?"
 ---
 
 ## Programação

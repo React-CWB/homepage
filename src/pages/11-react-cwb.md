@@ -4,6 +4,13 @@ date: "1522206000000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Máscaras de input com redux-form"
+    palestrante: "Renato Böhler"
+    fotoPalestrante: "https://avatars2.githubusercontent.com/u/25781956?s=400&v=4"
+  - titulo: "React + Immutable.js"
+    palestrante: "Bruno da Hora"
+    fotoPalestrante: "https://avatars2.githubusercontent.com/u/959629?s=400&v=4"
 ---
 
 ## Programação

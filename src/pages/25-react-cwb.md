@@ -4,6 +4,13 @@ date: "1561518000000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Atomic Design na Prática"
+    palestrante: "Demys Cota de Lima"
+    fotoPalestrante: "https://avatars0.githubusercontent.com/u/24606863?s=400&v=4"
+  - titulo: "Composição - HoC's, Render Props e Hooks + Context API"
+    palestrante: "Rodrigo Picanço Tavares"
+    fotoPalestrante: "https://avatars1.githubusercontent.com/u/26739998?s=400&v=4"
 ---
 
 ## Programação

@@ -4,6 +4,10 @@ date: "1527562800000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Boas práticas com React"
+    palestrante: "Lúcio Charallo"
+    fotoPalestrante: "https://avatars0.githubusercontent.com/u/403876?s=460&v=4"
 ---
 
 ## Programação

@@ -4,6 +4,13 @@ date: "1535425200000"
 location: "IEP"
 sponsor: "IEP"
 next: false
+palestras:
+  - titulo: "React + AWS"
+    palestrante: "Vanderson de Moura Vauruk"
+    fotoPalestrante: "https://avatars2.githubusercontent.com/u/12579082?s=460&v=4"
+  - titulo: "Redux de iniciante a intermediário"
+    palestrante: "Daniel Cavalcante"
+    fotoPalestrante: "https://avatars1.githubusercontent.com/u/2281265?s=400&v=4"
 ---
 
 ## Programação

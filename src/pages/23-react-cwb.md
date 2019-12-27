@@ -4,6 +4,13 @@ date: "1556074800000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Arquitetura das aplicações React geradas pelo ScaffoldHub"
+    palestrante: "Felipe Augusto Pastore de Lima"
+    fotoPalestrante: "https://avatars3.githubusercontent.com/u/703698?s=400&v=4"
+  - titulo: "Context API vs Redux"
+    palestrante: "Bruno Vercelino da Hora"
+    fotoPalestrante: "https://avatars2.githubusercontent.com/u/959629?s=400&v=4"
 ---
 
 ## Programação

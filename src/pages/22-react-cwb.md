@@ -4,6 +4,13 @@ date: "1553655600000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "React Native Web - Overview"
+    palestrante: "Jaime Biernaski"
+    fotoPalestrante: "https://avatars3.githubusercontent.com/u/31888408?s=460&v=4"
+  - titulo: "O Flutter é o React Native da Google"
+    palestrante: "Luiz Henrique Nascimento dos Anjos"
+    fotoPalestrante: "?"
 ---
 
 ## Programação

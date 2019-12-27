@@ -4,6 +4,13 @@ date: "1564542000000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: 'Unstated - gerenciamento de estado "with ease"'
+    palestrante: "Thiago de Oliveira Medeiros"
+    fotoPalestrante: "?"
+  - titulo: "Micro-frontends: the golden circle"
+    palestrante: "Bruno Vercelino da Hora"
+    fotoPalestrante: "https://avatars2.githubusercontent.com/u/959629?s=400&v=4"
 ---
 
 ## Programação
