@@ -4,6 +4,13 @@ date: "1569380400000"
 location: "Pipefy"
 sponsor: "Pipefy"
 next: false
+palestras:
+  - titulo: "Desenvolvendo Jogos em Canvas com UI em React"
+    palestrante: "Chrysthian Akihiro Suguiy Simão"
+    fotoPalestrante: "https://avatars1.githubusercontent.com/u/7118046?s=400&v=4"
+  - titulo: "Promise/A+. Pipelines, tricks and tips"
+    palestrante: "Bruno Dias"
+    fotoPalestrante: "https://avatars2.githubusercontent.com/u/362368?s=400&v=4"
 ---
 
 ## Programação

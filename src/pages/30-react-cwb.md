@@ -6,7 +6,7 @@ sponsor: Pipefy
 next: false
 palestras:
   - titulo: Dojo
-    palestrante: ""
+    palestrante: "Comunidade"
     fotoPalestrante: "https://secure.meetupstatic.com/photos/event/1/2/2/1/600_481324641.jpeg"
 ---
 

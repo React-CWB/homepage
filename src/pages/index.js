@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, css } from '@emotion/core'
+import { jsx, css } from "@emotion/core"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import EventCard from "../components/event-card"
@@ -11,8 +11,8 @@ export default ({ data }) => {
       <section
         css={css`
           display: flex;
-	  justify-content: center
-	`}
+          justify-content: center;
+        `}
       >
         <img
           src="https://secure.meetupstatic.com/photos/event/1/2/2/1/600_481324641.jpeg"
@@ -22,11 +22,17 @@ export default ({ data }) => {
       <section>
         <div>
           <h3>Estamos precisando de palestras !</h3>
-          <p css={css`margin-bottom: 6px`}>
+          <p
+            css={css`
+              margin-bottom: 6px;
+            `}
+          >
             entre em contato por{" "}
             <a
               href="http://bit.ly/reactcwb_call4papers"
-              css={css`color: #15b3d5`}
+              css={css`
+                color: #15b3d5;
+              `}
             >
               aqui
             </a>
@@ -34,8 +40,17 @@ export default ({ data }) => {
         </div>
       </section>
       <hr />
-      <section css={css`margin-top: 20px`}>
-        {nextEvent ? <EventCard event={nextEvent.node} /> : null}
+      <section
+        css={css`
+          margin-top: 20px;
+        `}
+      >
+        {nextEvent ? (
+          <div>
+            <h3>Próximo Evento</h3>
+            <EventCard event={nextEvent.node} />
+          </div>
+        ) : null}
       </section>
       <br />
     </Layout>

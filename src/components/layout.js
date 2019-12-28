@@ -17,31 +17,41 @@ export default ({ children }) => {
   )
   return (
     <div
-      css={css({
-        margin: "0 auto",
-        maxWidth: "900px",
-        padding: rhythm(2),
-        paddingTop: rhythm(1.5),
-      })}
+      css={css`
+        margin: 0 auto;
+        max-width: 900px;
+        @media (max-width: 768px) {
+          padding: ${rhythm(0.75)};
+          padding-top: ${rhythm(1)};
+        }
+        padding: ${rhythm(2)};
+        padding-top: ${rhythm(1.5)};
+      `}
     >
-      <Link to={`/`}>
-        <h3
-          css={{
-            display: "inline-block",
-            fontStyle: "normal",
-          }}
-        >
-          {data.site.siteMetadata.title}
-        </h3>
-      </Link>
-      <Link
-        to={`/eventos/`}
-        css={{
-          float: "right",
-        }}
+      <div
+        css={css`
+          display: flex;
+          justify-content: space-between;
+        `}
       >
-        Eventos
-      </Link>
+        <Link to={`/`}>
+          <h2
+            css={css`
+              display: inline-block;
+            `}
+          >
+            {data.site.siteMetadata.title}
+          </h2>
+        </Link>
+        <Link
+          to={`/eventos/`}
+          css={css`
+            text-decoration: none;
+          `}
+        >
+          eventos anteriores
+        </Link>
+      </div>
       {children}
     </div>
   )
