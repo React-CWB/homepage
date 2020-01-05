@@ -2,7 +2,7 @@ const React = require("react")
 const gatsby = jest.requireActual("gatsby")
 module.exports = {
   ...gatsby,
-  graphql: jest.fn(),
+  graphql: jest.fn().mockImplementation(() => ({ data: 'mock' })),
   Link: jest
     .fn()
     .mockImplementation(

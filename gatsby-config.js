@@ -6,8 +6,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
+        name: `events`,
+        path: `${__dirname}/content/events`,
       },
     },
     `gatsby-transformer-remark`,

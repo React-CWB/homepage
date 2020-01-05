@@ -1,5 +1,5 @@
 ---
-title: "React CWB #29"
+title: "React CWB #290"
 date: "1572404400000"
 location: Pipefy
 sponsor: Pipefy

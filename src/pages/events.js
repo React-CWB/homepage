@@ -4,14 +4,17 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import EventCard from "../components/event-card"
 
-export default ({ data }) => (
-  <Layout>
-    <h3>Todos os eventos</h3>
-    {data.allMarkdownRemark.edges.map(({ node }) => (
-      <EventCard key={node.frontmatter.date} event={node} />
-    ))}
-  </Layout>
-)
+export default ({ data }) => {
+  console.log('data from eventos', data)
+  return (
+    <Layout>
+      <h3>Todos os eventos</h3>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <EventCard key={node.frontmatter.date} event={node} />
+      ))}
+    </Layout>
+  )
+}
 
 export const query = graphql`
   query {

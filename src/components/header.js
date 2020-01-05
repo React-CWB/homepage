@@ -19,7 +19,7 @@ export default ({ pageTitle }) => (
       </h2>
     </Link>
     <Link
-      to={`/eventos/`}
+      to={`/events/`}
       css={css`
         text-decoration: none;
       `}
