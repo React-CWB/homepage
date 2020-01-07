@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import { jsx, css } from "@emotion/core"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
-import EventCard from "../components/event-card"
+import {jsx, css} from '@emotion/core'
+import {graphql} from 'gatsby'
+import Layout from '../components/layout'
+import EventCard from '../components/event-card'
 
-export default ({ data }) => {
+export default function Index({data}) {
   const [nextEvent] = data.allMarkdownRemark.edges
   return (
     <Layout>
@@ -27,7 +27,7 @@ export default ({ data }) => {
               margin-bottom: 6px;
             `}
           >
-            entre em contato por{" "}
+            entre em contato por{' '}
             <a
               href="http://bit.ly/reactcwb_call4papers"
               css={css`
@@ -59,7 +59,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   {
-    allMarkdownRemark(filter: { frontmatter: { next: { eq: true } } }) {
+    allMarkdownRemark(filter: {frontmatter: {next: {eq: true}}}) {
       edges {
         node {
           frontmatter {

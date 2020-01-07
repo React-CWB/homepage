@@ -1,15 +1,14 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from 'react'
+import {graphql} from 'gatsby'
 
-import Layout from "../components/layout"
-import EventCard from "../components/event-card"
+import Layout from '../components/layout'
+import EventCard from '../components/event-card'
 
-export default ({ data }) => {
-  console.log('data from eventos', data)
+export default function Events({data}) {
   return (
     <Layout>
       <h3>Todos os eventos</h3>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
+      {data.allMarkdownRemark.edges.map(({node}) => (
         <EventCard key={node.frontmatter.date} event={node} />
       ))}
     </Layout>
@@ -18,7 +17,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
       edges {
         node {
           frontmatter {

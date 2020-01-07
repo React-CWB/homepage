@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import { css, jsx } from "@emotion/core"
-import { useStaticQuery, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
+import {css, jsx} from '@emotion/core'
+import {useStaticQuery, graphql} from 'gatsby'
+import {rhythm} from '../utils/typography'
 
-import Header from "./header"
+import Header from './header'
 
-export default ({ children }) => {
+export default function Layout({children}) {
   const data = useStaticQuery(
     graphql`
       query {
@@ -15,7 +15,7 @@ export default ({ children }) => {
           }
         }
       }
-    `
+    `,
   )
   return (
     <div

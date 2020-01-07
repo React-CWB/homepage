@@ -1,14 +1,14 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import React from 'react'
+import {graphql} from 'gatsby'
+import Layout from '../components/layout'
 
-export default ({ data }) => {
+export default function BlogPost({data}) {
   const post = data.markdownRemark
   return (
     <Layout>
       <div>
         <h2>{post.frontmatter.title}</h2>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div dangerouslySetInnerHTML={{__html: post.html}} />
       </div>
     </Layout>
   )
@@ -16,7 +16,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: {slug: {eq: $slug}}) {
       frontmatter {
         title
       }
