@@ -1,8 +1,8 @@
-const React = require("react")
-const gatsby = jest.requireActual("gatsby")
+const React = require('react')
+const gatsby = jest.requireActual('gatsby')
 module.exports = {
   ...gatsby,
-  graphql: jest.fn().mockImplementation(() => ({ data: 'mock' })),
+  graphql: jest.fn().mockImplementation(() => ({data: 'mock'})),
   Link: jest
     .fn()
     .mockImplementation(
@@ -16,10 +16,10 @@ module.exports = {
         to,
         ...rest
       }) =>
-        React.createElement("a", {
+        React.createElement('a', {
           href: to,
           ...rest,
-        })
+        }),
     ),
   StaticQuery: jest.fn(),
   useStaticQuery: jest.fn(),

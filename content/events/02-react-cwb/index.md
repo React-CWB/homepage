@@ -1,16 +1,16 @@
 ---
-title: "React CWB #2"
-date: "1494385200000"
-location: "Pipefy"
-sponsor: "Pipefy"
+title: 'React CWB #2'
+date: '1494385200000'
+location: 'Pipefy'
+sponsor: 'Pipefy'
 next: false
 palestras:
-  - titulo: "Introdução ao React-Native"
-    palestrante: "?"
-    fotoPalestrante: "?"
-  - titulo: "Como testar sua App com Jest e Enzyme"
-    palestrante: "?"
-    fotoPalestrante: "?"
+  - titulo: 'Introdução ao React-Native'
+    palestrante: '?'
+    fotoPalestrante: '?'
+  - titulo: 'Como testar sua App com Jest e Enzyme'
+    palestrante: '?'
+    fotoPalestrante: '?'
 ---
 
 ## Programação

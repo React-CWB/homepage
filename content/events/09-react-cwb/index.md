@@ -1,16 +1,16 @@
 ---
-title: "React CWB #9"
-date: "1517277600000"
-location: "Pipefy"
-sponsor: "Pipefy"
+title: 'React CWB #9'
+date: '1517277600000'
+location: 'Pipefy'
+sponsor: 'Pipefy'
 next: false
 palestras:
-  - titulo: "Board game using react + svg"
-    palestrante: "Lucas Santos"
-    fotoPalestrante: "?"
-  - titulo: "Lições aprendidas na organização de projetos React"
-    palestrante: "Daniel Cunha"
-    fotoPalestrante: "?"
+  - titulo: 'Board game using react + svg'
+    palestrante: 'Lucas Santos'
+    fotoPalestrante: '?'
+  - titulo: 'Lições aprendidas na organização de projetos React'
+    palestrante: 'Daniel Cunha'
+    fotoPalestrante: '?'
 ---
 
 ## Programação

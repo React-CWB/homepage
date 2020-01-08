@@ -1,19 +1,21 @@
 ---
-title: "#1 - Intro ao React"
-date: "1491966000000"
-location: "ImpactHub"
-sponsor: "Trackmob"
+title: '#1 - Intro ao React'
+date: '1491966000000'
+location: 'ImpactHub'
+sponsor: 'Trackmob'
 next: false
 palestras:
-  - titulo: "Introdução ao React"
-    palestrante: "Thiago Terleski"
-    fotoPalestrante: "https://avatars0.githubusercontent.com/u/2950918?s=460&v=4"
-  - titulo: "Introdução ao Redux"
-    palestrante: "Bruno Vercelino da Hora"
-    fotoPalestrante: "https://avatars3.githubusercontent.com/u/959629?s=460&v=4"
+  - titulo: 'Introdução ao React'
+    palestrante: 'Thiago Terleski'
+    fotoPalestrante: 'https://avatars0.githubusercontent.com/u/2950918?s=460&v=4'
+  - titulo: 'Introdução ao Redux'
+    palestrante: 'Bruno Vercelino da Hora'
+    fotoPalestrante: 'https://avatars3.githubusercontent.com/u/959629?s=460&v=4'
 ---
 
-Neste primeiro meetup vamos fazer uma introdução ao React/Redux e discutirmos um pouco sobre a melhor forma de seguirmos com o grupo para termos encontros mensais.
+Neste primeiro meetup vamos fazer uma introdução ao React/Redux e discutirmos um
+pouco sobre a melhor forma de seguirmos com o grupo para termos encontros
+mensais.
 
 Programação
 

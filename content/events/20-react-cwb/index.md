@@ -1,13 +1,13 @@
 ---
-title: "React CWB #20"
-date: "1545012000000"
-location: "Pipefy"
-sponsor: "Pipefy"
+title: 'React CWB #20'
+date: '1545012000000'
+location: 'Pipefy'
+sponsor: 'Pipefy'
 next: false
 palestras:
-  - titulo: "React Native + Hooks"
-    palestrante: "Guilherme Jabur"
-    fotoPalestrante: "?"
+  - titulo: 'React Native + Hooks'
+    palestrante: 'Guilherme Jabur'
+    fotoPalestrante: '?'
 ---
 
 ## Programação

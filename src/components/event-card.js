@@ -1,12 +1,12 @@
 /** @jsx jsx */
-import { jsx, css } from "@emotion/core"
-import { Link } from "gatsby"
-import { rhythm } from "../utils/typography"
+import {jsx, css} from '@emotion/core'
+import {Link} from 'gatsby'
+import {rhythm} from '../utils/typography'
 
-import Talk from "../components/talk"
+import Talk from '../components/talk'
 
-const EventCard = ({ event }) => {
-  const { palestras } = event.frontmatter
+const EventCard = ({event}) => {
+  const {palestras} = event.frontmatter
   const date = new Date(Number(event.frontmatter.date))
   return (
     <div
@@ -53,7 +53,7 @@ const EventCard = ({ event }) => {
               }
             `}
           >
-            {date.toLocaleDateString("pt-br")}
+            {date.toLocaleDateString('pt-br')}
           </h5>
         </div>
         <div
@@ -67,14 +67,14 @@ const EventCard = ({ event }) => {
         >
           {palestras &&
             event.frontmatter.palestras.map(
-              ({ titulo, palestrante, fotoPalestrante }) => (
+              ({titulo, palestrante, fotoPalestrante}) => (
                 <Talk
                   key={titulo}
                   nomePalestrante={palestrante}
                   fotoPalestrante={fotoPalestrante}
                   tituloPalestra={titulo}
                 />
-              )
+              ),
             )}
         </div>
         <h6

@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import { jsx, css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
+import {jsx, css} from '@emotion/core'
+import {rhythm} from '../utils/typography'
 
-const NO_PICTURE = "https://source.unsplash.com/460x460/?capybara"
+const NO_PICTURE = 'https://source.unsplash.com/460x460/?capybara'
 
-const Talk = ({ fotoPalestrante, nomePalestrante, tituloPalestra }) => {
+const Talk = ({fotoPalestrante, nomePalestrante, tituloPalestra}) => {
   return (
     <div
       css={css`
@@ -14,7 +14,7 @@ const Talk = ({ fotoPalestrante, nomePalestrante, tituloPalestra }) => {
     >
       <div css={css` display: flex, justify-content: center`}>
         <img
-          src={fotoPalestrante === "?" ? NO_PICTURE : fotoPalestrante}
+          src={fotoPalestrante === '?' ? NO_PICTURE : fotoPalestrante}
           css={css`
             width: 115px;
             heigth: 115px;

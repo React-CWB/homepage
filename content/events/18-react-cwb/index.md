@@ -1,16 +1,16 @@
 ---
-title: "React CWB #18"
-date: "1540263600000"
-location: "Pipefy"
-sponsor: "Pipefy"
+title: 'React CWB #18'
+date: '1540263600000'
+location: 'Pipefy'
+sponsor: 'Pipefy'
 next: false
 palestras:
-  - titulo: "React 101"
-    palestrante: "Eduardo Marinho"
-    fotoPalestrante: "?"
-  - titulo: "Gerando sites estáticos com Gastby"
-    palestrante: "Hermes Netto"
-    fotoPalestrante: "https://avatars3.githubusercontent.com/u/13364672?s=400&v=4"
+  - titulo: 'React 101'
+    palestrante: 'Eduardo Marinho'
+    fotoPalestrante: '?'
+  - titulo: 'Gerando sites estáticos com Gastby'
+    palestrante: 'Hermes Netto'
+    fotoPalestrante: 'https://avatars3.githubusercontent.com/u/13364672?s=400&v=4'
 ---
 
 ## Programação
