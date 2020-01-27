@@ -10,13 +10,13 @@ module.exports = {
         path: `${__dirname}/content/events`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `articles`,
-        path: `${__dirname}/content/articles`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `articles`,
+    //     path: `${__dirname}/content/articles`,
+    //   },
+    // },
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
