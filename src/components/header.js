@@ -25,7 +25,7 @@ export default function Header({pageTitle}) {
           text-decoration: none;
         `}
       >
-        eventos anteriores
+        todos os eventos
       </Link>
     </div>
   )

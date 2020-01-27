@@ -1,9 +1,9 @@
 ---
-title: 'React CWB #290'
+title: 'React CWB #29'
 date: '1572404400000'
 location: Pipefy
 sponsor: Pipefy
-next: true
+next: false
 palestras:
   - titulo: 'MonoRepo: Uma introdução'
     palestrante: Claudio Furini Jr.
