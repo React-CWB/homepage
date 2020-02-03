@@ -12,11 +12,18 @@ export default function Index({data}) {
         css={css`
           display: flex;
           justify-content: center;
+          width: 100%;
         `}
       >
         <img
           src="https://secure.meetupstatic.com/photos/event/1/2/2/1/600_481324641.jpeg"
           alt="react cwb logo"
+          css={css`
+            width: 100%;
+            @media (max-width: 768px) {
+              height: 100%;
+            }
+          `}
         />
       </section>
       <section>
