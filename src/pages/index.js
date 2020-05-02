@@ -3,11 +3,13 @@ import {jsx, css} from '@emotion/core'
 import {graphql} from 'gatsby'
 import Layout from '../components/layout'
 import EventCard from '../components/event-card'
+import SEO from '../components/seo'
 
 export default function Index({data}) {
   const [nextEvent] = data.allMarkdownRemark.edges
   return (
     <Layout>
+      <SEO title="Home" />
       <section
         css={css`
           display: flex;

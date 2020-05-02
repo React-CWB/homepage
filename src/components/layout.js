@@ -6,7 +6,7 @@ import {rhythm} from '../utils/typography'
 import Header from './header'
 
 export default function Layout({children}) {
-  const data = useStaticQuery(
+  const {site} = useStaticQuery(
     graphql`
       query {
         site {
@@ -17,6 +17,7 @@ export default function Layout({children}) {
       }
     `,
   )
+
   return (
     <div
       css={css`
@@ -30,7 +31,7 @@ export default function Layout({children}) {
         padding-top: ${rhythm(1.5)};
       `}
     >
-      <Header pageTitle={data.site.siteMetadata.title} />
+      <Header pageTitle={site.siteMetadata.title} />
       {children}
     </div>
   )

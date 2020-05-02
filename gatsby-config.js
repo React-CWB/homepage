@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `React CWB`,
+    description: `Comunidade React em Curitiba`,
   },
   plugins: [
     {
@@ -19,6 +20,7 @@ module.exports = {
     // },
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

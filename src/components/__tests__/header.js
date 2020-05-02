@@ -8,5 +8,5 @@ test('Displays the correct title', () => {
   const title = 'React Cwb'
   const {getByText} = render(<Header pageTitle={title} />)
   expect(getByText(title)).toBeTruthy()
-  expect(getByText('eventos anteriores')).toBeTruthy()
+  expect(getByText('todos os eventos')).toBeTruthy()
 })
