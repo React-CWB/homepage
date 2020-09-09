@@ -4,6 +4,7 @@ import {useStaticQuery, graphql} from 'gatsby'
 import {rhythm} from '../utils/typography'
 
 import Header from './header'
+import Footer from './footer'
 
 export default function Layout({children}) {
   const {site} = useStaticQuery(
@@ -33,6 +34,7 @@ export default function Layout({children}) {
     >
       <Header pageTitle={site.siteMetadata.title} />
       {children}
+      <Footer />
     </div>
   )
 }
